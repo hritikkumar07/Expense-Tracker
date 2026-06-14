@@ -11,7 +11,7 @@ import Expense from './pages/Expense.jsx'
 import Profile from './pages/Profile.jsx'
 
 
- const API_URL = "http://localhost:4000"
+ const API_URL = "https://expense-tracker-avg2.onrender.com"
 
  // to get transaction from localstorage
  const getTransactionsfromStorage = () => {

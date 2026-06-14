@@ -31,7 +31,7 @@ import { getTimeFrameRange, generateChartPoints } from "../components/Helpers.js
 import { INCOME_COLORS, CATEGORY_ICONS_Inc } from "../assets/color";
 import { incomeStyles as styles } from "../assets/dummyStyles.js";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://expense-tracker-avg2.onrender.com/api";
 
 // helps in converting date to ISo time
 function toIsoWithClientTime(dateValue) {
