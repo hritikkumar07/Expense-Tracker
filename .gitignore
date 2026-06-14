@@ -33,3 +33,7 @@ backend/.env
 *.njsproj
 *.sln
 *.sw?
+
+# Excel exports/generated files
+*.xlsx
+backend/*.xlsx
